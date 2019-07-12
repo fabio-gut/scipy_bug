@@ -16,7 +16,7 @@ def testcase():
     print(f"All values were floats? {all_float}")
     print(f"Starting test with only first 2000 points of data...")
     shape, loc, scale = gev.fit(data[0:2000])
-    print(f"Starting test with only all points of data...")
+    print(f"Starting test with all points of data...")
     shape, loc, scale = gev.fit(data)
 
 
